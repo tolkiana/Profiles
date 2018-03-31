@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class ViewController: UIViewController {
 
+    var dataBaseReference: FIRDatabaseReference?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        dataBaseReference = FIRDatabase.database().reference()
     }
 
     override func didReceiveMemoryWarning() {
