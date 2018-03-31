@@ -1,0 +1,43 @@
+{
+	
+	"profiles": [
+		{
+			"id": "id123",
+			"name": "Neli",
+			"age": "4",
+			"words": [
+				{
+					"word": "dad",
+					"pronunciation": "dad"
+				},
+				{
+					"word": "dad",
+					"pronunciation": "dad"
+				},
+				{
+					"word": "mom",
+					"pronunciation": "mom"
+				}
+			]
+		},
+		{
+			"id": "id456",
+			"name": "Ida",
+			"age": "3",
+			"words": [
+				{
+					"word": "dad",
+					"pronunciation": "dad"
+				},
+				{
+					"word": "dad",
+					"pronunciation": "dad"
+				},
+				{
+					"word": "mom",
+					"pronunciation": "mom"
+				}
+			]
+		}
+	]
+}
