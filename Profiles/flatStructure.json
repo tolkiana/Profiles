@@ -1,18 +1,21 @@
 {
-	
-	"profiles": [
+	"profiles": 
+	{
+		"id123": 
 		{
 			"id": "id123",
 			"name": "Neli",
 			"age": "4"
 		},
+		"id456": 
 		{
 			"id": "id456",
 			"name": "Ida",
 			"age": "3"
 		}
-	],
-	"words": {
+	},
+	"words": 
+	{
 		"id123": [
 			{
 				"word": "dad",
