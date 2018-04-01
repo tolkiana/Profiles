@@ -17,12 +17,35 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         dataBaseReference = FIRDatabase.database().reference()
     }
+    
+    // MARK: - IBActions
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func addNew(_ sender: UIButton) {
+        addNew()
     }
-
-
+    
+    @IBAction func read(_ sender: UIButton) {
+        read()
+    }
+    
+    // Private
+    
+    func addNew() {
+        guard let profilesRef = dataBaseReference?.child("profiles") else {
+            return
+        }
+        let key = profilesRef.childByAutoId().key
+        let profile = [
+            "id": key,
+            "name": "Neli",
+            "age": "2"
+        ]
+        profilesRef.child(key).setValue(profile)
+    }
+    
+    func read() {
+        
+        
+    }
 }
 
