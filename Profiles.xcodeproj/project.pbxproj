@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3853279220705BC70020732D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3853279120705BC70020732D /* GoogleService-Info.plist */; };
 		38A78983206EE80500358AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A78982206EE80500358AB6 /* AppDelegate.swift */; };
 		38A78985206EE80500358AB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A78984206EE80500358AB6 /* ViewController.swift */; };
 		38A78988206EE80500358AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A78986206EE80500358AB6 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		17F7ED3BC928696D8A5800D1 /* Pods_Profiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Profiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3853279120705BC70020732D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38A7897F206EE80500358AB6 /* Profiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A78982206EE80500358AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38A78984206EE80500358AB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				38A78989206EE80500358AB6 /* Assets.xcassets */,
 				38A7898B206EE80500358AB6 /* LaunchScreen.storyboard */,
 				38A7898E206EE80500358AB6 /* Info.plist */,
+				3853279120705BC70020732D /* GoogleService-Info.plist */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A7898D206EE80500358AB6 /* LaunchScreen.storyboard in Resources */,
+				3853279220705BC70020732D /* GoogleService-Info.plist in Resources */,
 				38A7898A206EE80500358AB6 /* Assets.xcassets in Resources */,
 				38A78988206EE80500358AB6 /* Main.storyboard in Resources */,
 			);
